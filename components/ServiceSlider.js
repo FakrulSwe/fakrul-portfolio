@@ -24,27 +24,27 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Creating a strong software brand for developers involves a mix of technical prowess, user experience, and a distinct brand identity.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Throughout these tasks, collaboration, documentation, and iteration are crucial. Regular communication with stakeholders, flexibility to adapt to changing requirements, and a commitment to quality are essential for successful software design.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Software development tasks encompass a wide range of activities involved in creating, maintaining, and improving software applications.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: "Effective software copywriting is crucial for enhancing user experience, guiding users through the software, and effectively communicating the software's value and features. It requires a blend of creativity, clarity, and an understanding of the target audience.",
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'In software development, SEO (Search Engine Optimization) tasks optimize the visibility and ranking of software-related websites, content, or applications in search engine results.',
   },
 ];
 

@@ -20,7 +20,7 @@ const Work = () => {
               initial="hidden" 
               animate="show" 
               exit="hidden" 
-              className='h2 xl:mt-8'
+              className='h2 mt-6 xl:mt-8 text-3xl xl:text-4xl'
             >
               My Work <span className='text-accent'>.</span>
             </motion.h2>
@@ -31,7 +31,7 @@ const Work = () => {
               exit="hidden" 
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus molestias sunt neque vero nulla earum, ex distinctio. Aspernatur, placeat.
+                Engaged in full-cycle software development, contributing to the design, development, testing, and deployment of full-stack developers.
             </motion.p>
           </div>
             {/* slider */}
