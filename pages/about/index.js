@@ -15,19 +15,19 @@ const aboutData = [
         id:1,
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />
+          <FaHtml5 key={""} />,
+          <FaCss3 key={""} />,
+          <FaJs key={""} />,
+          <FaReact key={""} />,
+          <SiNextdotjs key={""} />,
+          <SiFramer key={""} />,
+          <FaWordpress key={""} />
         ],
       },
       {
         id:2,
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />]
+        icons: [<FaFigma key={""}/>, <SiAdobexd key={""} />, <SiAdobephotoshop key={""} />]
       },
     ],
   },
