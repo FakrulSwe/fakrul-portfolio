@@ -116,7 +116,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 
 //counter
-import CountUp from "react-CountUp";
+import CountUp from "react-countup";
 // import ParticlesContainer from "../../components/ParticlesContainer";
 
 
