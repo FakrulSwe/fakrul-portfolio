@@ -27,7 +27,8 @@ const aboutData = [
         id:1,
         title: 'Web Development',
         icons: [
-          // <FaHtml5 />,
+
+          <FaHtml5 />,
           // <FaCss3 />,
           // <FaJs />,
           // <FaReact />,
