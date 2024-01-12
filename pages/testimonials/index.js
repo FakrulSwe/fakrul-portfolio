@@ -15,7 +15,7 @@ const Testimonials = () => {
          initial="hidden" 
          animate='show' 
          exit='hidden' 
-         className='h2 mb-8 mt-4 xl:mb-0'
+         className='font-bold xl:h2 mb-8 mt-4 xl:mb-0 pt-14'
         >
           What clients <span className='text-accent'>say.</span>
         </motion.h2>

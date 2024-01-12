@@ -25,7 +25,7 @@ const Home = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-          className="text-3xl xl:h1 pt-10 pb-3"
+          className="text-xl xl:text-5xl xl:h2 pt-16 xl:pb-3 md:text-4xl md:pb-3"
           >
           Transforming Ideas <br/> Into {' '} <span className="text-amber-400">Software</span>
         </motion.h1>
@@ -35,7 +35,7 @@ const Home = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-          className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 text-sm"
+          className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 text-sm pt-5 xl:pt-0"
           >
           As a software engineer, I am passionate about designing and developing software systems that solve complex problems and deliver value to end-users. With 1 year of experience, I have honed my skills in various programming languages including HTML, CSS, Bootstrap, Tailwind, JavaScript, C, Java, and frameworks React.js. I am committed to showing my skills for reliable, scalable, and user-friendly software.
         </motion.p>

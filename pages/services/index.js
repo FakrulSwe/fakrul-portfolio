@@ -20,7 +20,7 @@ const Services = () => {
               initial="hidden" 
               animate="show" 
               exit="hidden" 
-              className='h2 xl:mt-8'
+              className='font-bold xl:mt-8 xl:h2 pt-14 xl:pt-0 '
             >
               My services <span className='text-accent'>.</span>
             </motion.h2>
@@ -31,7 +31,7 @@ const Services = () => {
               exit="hidden" 
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil delectus molestias sunt neque vero nulla earum, ex distinctio. Aspernatur, placeat.
+                Certainly! Software engineers provide a range of services related to the development, maintenance, and improvement of software systems.
             </motion.p>
           </div>
             {/* slider */}

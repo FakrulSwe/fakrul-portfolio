@@ -5,21 +5,21 @@ export const testimonialSlider = [
     name: 'Anne Smith',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Exceptional developer, consistently delivers outstanding solutions.',
   },
   {
     image: '/t-avt-2.png',
     name: 'Jane Doe',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Mastery of coding and problem-solving, a true asset to the team.',
   },
   {
     image: '/t-avt-3.png',
     name: 'Jhon Doe',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Team player, communicates effectively, and collaborates seamlessly.',
   },
 ];
 

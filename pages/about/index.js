@@ -192,6 +192,16 @@ const About = () => {
                 </div>
               );
             })}
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div>
+              <p><span className="font-semibold from-accent">Email: </span> fakrul.swe@gmail.com</p>
+              <p><span className="font-semibold">Phone:</span> +8801631590361</p>
+              <p><span className="font-semibold">Adress:</span> House-35, Commerce College Rd, Mirpur-2,
+    Dhaka</p>
+            </div>
           </div>
         </motion.div>
       </div>
