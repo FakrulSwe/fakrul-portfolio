@@ -37,7 +37,7 @@ const Home = () => {
           exit='hidden'
           className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 text-sm"
           >
-          As a software engineer, I'm passionate about designing and developing software systems that solve complex problems and deliver value to end-users. With 1 year of experience, I've honed my skills in various programming languages including HTML, CSS, Bootstrap, Tailwind, JavaScript, C, Java, and frameworks React.js. I'm committed to showing my skills for reliable, scalable, and user-friendly software.
+          As a software engineer, I am passionate about designing and developing software systems that solve complex problems and deliver value to end-users. With 1 year of experience, I have honed my skills in various programming languages including HTML, CSS, Bootstrap, Tailwind, JavaScript, C, Java, and frameworks React.js. I am committed to showing my skills for reliable, scalable, and user-friendly software.
         </motion.p>
         {/* btn */}
         <div className="flex justify-center xl:hidden relative">

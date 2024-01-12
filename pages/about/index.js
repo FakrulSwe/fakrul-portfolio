@@ -24,20 +24,22 @@ const aboutData = [
     title: 'skills',
     info: [
       {
+        id:1,
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          // <FaHtml5 />,
+          // <FaCss3 />,
+          // <FaJs />,
+          // <FaReact />,
+          // <SiNextdotjs />,
+          // <SiFramer />,
+          // <FaWordpress />,
         ],
       },
       {
+        id:2,
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        // icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
       },
     ],
   },
@@ -45,48 +47,59 @@ const aboutData = [
     title: 'awards',
     info: [
       {
+        id:3,
         title: 'Certificate of Appreciation - DIU',
         stage: '2019',
       },
       {
+        id:4,
         title: 'Participation in KOREA ICT Volunteer Team - DIU',
         stage: '2020',
       },
       {
+        id:5,
         title: 'Server Administration Including Windows Server Management - BASIS',
         stage: '2022',
       },
     ],
   },
   {
+    id:6,
     title: 'experience',
     info: [
       {
+        id:7,
         title: 'UX/UI Designer - BugsBD Limited',
         stage: '2023 - Current',
       },
       {
+        id:8,
         title: 'Web Developer - BugsBD Limited',
         stage: '2023 - Current',
       },
       {
+        id:9,
         title: 'Intern - BugsBD Limited',
         stage: '2022 - 2023',
       },
     ],
   },
   {
+    id:10,
     title: 'credentials',
     info: [
       {
+        id:11,
         title: 'Bachelor of Science in Software Engineering  - Daffodil International University',
         stage: '18 April 2022',
       },
       {
+        id:12,
         title: 'Higher Secondary Certificate, Science - Chowmuhoni Govt.S.A. College',
         stage: '23 July 2017',
       },
       {
+        id:13,
         title: 'Secondary School Certificate, Science - Kalikapur Babu Pur High School',
         stage: '17 May 2014',
       },
@@ -113,17 +126,6 @@ const About = () => {
   return (
     <div className="h-full bg-primary/30 py-28 text-center xl:text-left">
       <Circles />
-      {/* <ParticlesContainer/> */}
-      {/* avata img */}
-      {/* <motion.div 
-      variants={fadeIn('right', 0.2)} 
-      initial="hidden" 
-      animate="show" 
-      exit="hidden" 
-      className="hidden xl:flex absolute bottom-0 -left-[250px]"
-      >
-        <Avatar/>
-      </motion.div> */}
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-10 font-sans">
         {/* text */}
         <div className="flex-1 flex flex-col justify-center pt-4 xl:text-lg text-base xl:pt-5 mx-auto">
@@ -195,7 +197,7 @@ const About = () => {
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex)=>{
                     return(
-                      <div className="text-2xl text-white/80">{icon}</div>
+                      <div key={itemIndex} className="text-2xl text-white/80">{icon}</div>
                     );
                   })}
                   </div>
